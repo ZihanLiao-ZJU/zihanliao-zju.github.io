@@ -11,6 +11,9 @@
   var canvas = document.createElement("canvas");
   canvas.className = "bg-fx";
   canvas.setAttribute("aria-hidden", "true");
+  // Positioned inline so the canvas never takes up layout space, even when a
+  // cached stylesheet without the .bg-fx rule is served
+  canvas.style.cssText = "position:fixed;top:0;left:0;width:100%;height:100%;z-index:-1;pointer-events:none";
   document.body.insertBefore(canvas, document.body.firstChild);
 
   var ctx = canvas.getContext("2d");
