@@ -10,7 +10,7 @@
   repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
   language: "MATLAB"
   description: "Softly truncated, prior-based proposal sequences combined through multiple importance sampling for Bayesian evidence estimation and posterior sampling with multimodal, high-dimensional posteriors."
-  paper: "Mechanical Systems and Signal Processing"
+  paper: "Mechanical Systems and Signal Processing, 2026"
 
 - name: "Subset Simulation for Bayesian Updating"
   repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"

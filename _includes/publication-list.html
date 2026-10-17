@@ -1,0 +1,9 @@
+{%- for category in site.publication_category -%}
+{%- assign pubs = site.data.publications | where: "category", category[0] -%}
+{%- if pubs.size > 0 -%}
+<h3 class="section-title">{{ category[1].title }}</h3>
+<ol class="pub-list">
+{%- for pub in pubs -%}{% include publication-item.html pub=pub %}{%- endfor -%}
+</ol>
+{%- endif -%}
+{%- endfor -%}

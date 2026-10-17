@@ -1,16 +1,19 @@
 # Publications, newest first.
-# category: manuscripts (journal articles) or preprints, matching publication_category in _config.yml.
+# category: manuscripts (journal articles), conferences or preprints, matching publication_category in _config.yml.
 # Fields: title, authors, venue, details, year, category, and optional links (paper, arxiv, code).
 # Author names matching site.author.name are highlighted automatically.
 
 - title: "Tailored Deep Learning–Assisted In Situ SERS: Overcoming Surface Irregularities-Induced Large Signal Variation on Biological Tissues"
   authors: "Ling Guo, Zihan Liao, Tianxi Yang"
   venue: "Analytical Chemistry"
+  details: "98(25), 18645–18659"
   year: 2026
   category: manuscripts
+  paper: "https://doi.org/10.1021/acs.analchem.6c01156"
   code: "https://github.com/ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
 
 - title: "Sequential multiple importance sampling for robust and efficient (possibly high-dimensional) reliability estimation"
+  authors: "Weili Xia, Zihan Liao, Binbin Li"
   venue: "Mechanical Systems and Signal Processing"
   details: "259, 114798"
   year: 2026
@@ -18,12 +21,23 @@
   paper: "https://doi.org/10.1016/j.ymssp.2026.114798"
   code: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation"
 
+- title: "Sequential multiple importance sampling for multi-modal Bayesian inference"
+  authors: "Binbin Li, Xiao He, Zihan Liao"
+  venue: "Mechanical Systems and Signal Processing"
+  details: "245, 113788"
+  year: 2026
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.ymssp.2025.113788"
+  arxiv: "https://arxiv.org/abs/2507.05114"
+  code: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
+
 - title: "From likelihood to limit state: A reliability-inspired framework for Bayesian evidence estimation and high-dimensional sampling"
   authors: "Zihan Liao, Binbin Li, Hua-Ping Wan"
   venue: "Mechanical Systems and Signal Processing"
+  details: "237, 112969"
   year: 2025
   category: manuscripts
-  paper: "https://www.sciencedirect.com/science/article/pii/S0888327025006703"
+  paper: "https://doi.org/10.1016/j.ymssp.2025.112969"
   arxiv: "https://arxiv.org/abs/2409.19910"
   code: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
 
@@ -35,20 +49,72 @@
   category: manuscripts
   paper: "https://doi.org/10.1016/j.ress.2025.111302"
 
+- title: "Enhanced generalized subset simulation with multiple importance sampling for reliability estimation"
+  authors: "Weili Xia, Zihan Liao"
+  venue: "Computers & Structures"
+  details: "313, 107741"
+  year: 2025
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.compstruc.2025.107741"
+
+- title: "Bayesian mixture of factor analyzers for structural damage detection under varying environmental conditions"
+  authors: "Binbin Li, Yulong Zhang, Zihan Liao, Zhilin Xue"
+  venue: "Journal of Infrastructure Intelligence and Resilience"
+  details: "4(2), 100140"
+  year: 2025
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.iintel.2025.100140"
+
+- title: "Enhancing subset simulation through Bayesian inference"
+  authors: "Zihan Liao, Xiao He, Weili Xia"
+  venue: "Computer Methods in Applied Mechanics and Engineering"
+  details: "432, 117392"
+  year: 2024
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.cma.2024.117392"
+
+- title: "An investigation into Markov chain Monte Carlo algorithms for Subset simulation: Emphasizing uncertainty analysis"
+  authors: "Zihan Liao, Weili Xia, Xiao He"
+  venue: "Computers & Structures"
+  details: "294, 107268"
+  year: 2024
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.compstruc.2023.107268"
+
+- title: "子集模拟的混合采样算法"
+  authors: "廖子涵, 李宾宾"
+  venue: "计算力学学报 (Chinese Journal of Computational Mechanics)"
+  details: "40(5), 693–700"
+  year: 2023
+  category: manuscripts
+
+- title: "拉索模态参数全过程自动化识别方法"
+  authors: "安永辉, 薛志林, 廖子涵, 李宾宾"
+  venue: "土木工程学报 (China Civil Engineering Journal)"
+  details: "56(7), 82–91"
+  year: 2022
+  category: manuscripts
+
+- title: "A strategy for optimal sensor placement in modal signal-to-noise ratio-based structural health monitoring"
+  authors: "Dahai Xiao, Zihan Liao, Binbin Li"
+  venue: "2022 8th International Conference on Hydraulic and Civil Engineering (ICHCE)"
+  details: "1–8"
+  year: 2022
+  category: conferences
+  paper: "https://doi.org/10.1109/ICHCE57331.2022.10042699"
+
+- title: "Adaptive stratified sampling using subset simulation for Bayesian analysis"
+  authors: "Zihan Liao, Binbin Li"
+  venue: "7th International Symposium on Reliability Engineering and Risk Management (ISRERM)"
+  year: 2020
+  category: conferences
+
 - title: "Understanding the geometry of high dimensional Bayesian inference via projected one-dimensional measures"
   authors: "Binbin Li, Mingzhu Chen, Sin-Chi Kuok, Zihan Liao, Armen Der Kiureghian"
   venue: "SSRN preprint"
   year: 2026
   category: preprints
-  paper: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7370862"
-
-- title: "Sequential multiple importance sampling for high-dimensional Bayesian inference"
-  authors: "Binbin Li, Xiao He, Zihan Liao"
-  venue: "arXiv preprint"
-  details: "arXiv:2507.05114"
-  year: 2025
-  category: preprints
-  arxiv: "https://arxiv.org/abs/2507.05114"
+  paper: "https://doi.org/10.2139/ssrn.7370862"
 
 - title: "Curse of dimensionality in Bayesian model updating"
   authors: "Binbin Li, Zihan Liao"

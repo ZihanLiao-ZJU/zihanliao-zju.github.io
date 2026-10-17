@@ -15,6 +15,8 @@ I study how to make probabilistic computation reliable when it is hard: estimati
 
 I received my Ph.D. from [Zhejiang University](https://www.zju.edu.cn/english/) in 2025 and my bachelor's degree from [Nanchang University](https://www.ncu.edu.cn/) in 2019. The code for my papers is open source on [GitHub](https://github.com/{{ site.author.github }}).
 
+**Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
+
 ## Education
 
 <ul class="timeline">
@@ -24,11 +26,9 @@ I received my Ph.D. from [Zhejiang University](https://www.zju.edu.cn/english/) 
 
 ## Publications
 
-<ol class="pub-list">
-  {% assign pubs = site.data.publications | sort: "year" | reverse %}{% for pub in pubs %}{% include publication-item.html pub=pub %}{% endfor %}
-</ol>
+{% include publication-list.html %}
 
-<p class="more-link"><a href="{{ base_path }}/publications/">All publications by type</a> · <a href="{{ site.author.googlescholar }}">Google Scholar</a></p>
+<p class="more-link">See also my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.</p>
 
 ## Open-source code
 

@@ -11,12 +11,4 @@ author_profile: true
   <p class="page__lead">The full and most up-to-date list is on my <a href="{{ site.author.googlescholar }}">Google Scholar profile</a>.</p>
 {% endif %}
 
-{% for category in site.publication_category %}
-  {% assign pubs = site.data.publications | where: "category", category[0] %}
-  {% if pubs.size > 0 %}
-    <h2 class="section-title">{{ category[1].title }}</h2>
-    <ol class="pub-list">
-      {% for pub in pubs %}{% include publication-item.html pub=pub %}{% endfor %}
-    </ol>
-  {% endif %}
-{% endfor %}
+{% include publication-list.html %}
