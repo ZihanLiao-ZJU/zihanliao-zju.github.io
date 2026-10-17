@@ -1,10 +1,10 @@
 /* ==========================================================================
     CLAUDE THEME - LIGHT VERSION
-    Warm cream paper, ink-brown text and a terracotta accent.
+    Warm cream paper, ink-brown text and a blue accent.
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #c96442;
+$primary-color              : #2f6db5;
 $gray                       : #83827d;
 $dark-gray                  : #3d3929;
 $darker-gray                : #1f1e1d;
@@ -16,7 +16,7 @@ $cream-dark                 : #f0eee6;
 
 /* Color codes used for the site */
 $danger-color               : #b5452b;
-$info-color                 : #c96442;
+$info-color                 : #2f6db5;
 $notice-color               : #83827d;
 $success-color              : #5f7a4d;
 $warning-color              : #d4a24c;
@@ -41,9 +41,9 @@ $sidebar-screen-min-width   : 1024px;
     --global-code-background-color      : #{$cream-dark};
     --global-code-text-color            : #{$dark-gray};
     --global-fig-caption-color          : #{$gray};
-    --global-link-color                 : #b4552d;
-    --global-link-color-hover           : #8a3f24;
-    --global-link-color-visited         : #b4552d;
+    --global-link-color                 : #2563a8;
+    --global-link-color-hover           : #1b4a80;
+    --global-link-color-visited         : #2563a8;
     --global-masthead-link-color        : #{$dark-gray};
     --global-masthead-link-color-hover  : #{$primary-color};
     --global-text-color                 : #{$dark-gray};
@@ -52,6 +52,6 @@ $sidebar-screen-min-width   : 1024px;
 
     --claude-card-bg                    : #ffffff;
     --claude-chip-bg                    : #{$cream-dark};
-    --claude-accent-soft                : #f5e3d9;
+    --claude-accent-soft                : #e1ebf7;
     --claude-heading-color              : #{$darker-gray};
 }
