@@ -1,6 +1,6 @@
 /* ==========================================================================
-   Cursor-following background: a faint dot grid that lights up and parts
-   around the pointer, under a soft blue glow that trails the cursor.
+   Cursor-following background: a faint dot grid whose points near the
+   pointer turn into small monospace glyphs (· : + * ✻) in the accent colour.
    Static grid on touch devices and when reduced motion is requested.
    ========================================================================== */
 
@@ -15,17 +15,17 @@
   var ctx = canvas.getContext("2d");
   if (!ctx) return;
 
-  var SPACING = 28;     // grid pitch in CSS px
-  var RADIUS = 200;     // reach of the cursor's influence
-  var PUSH = 12;        // how far dots part around the cursor
-  var GLOW = 420;       // radius of the trailing glow
+  var SPACING = 24;     // grid pitch in CSS px
+  var RADIUS = 150;     // reach of the cursor's influence
+  var GLYPHS = ["\u00b7", ":", "+", "*", "\u273b"];  // faint to strong
+  var MONO = 'ui-monospace, "SF Mono", Menlo, Consolas, monospace';
 
   var fine = window.matchMedia("(hover: hover) and (pointer: fine)");
   var still = window.matchMedia("(prefers-reduced-motion: reduce)");
 
   var dpr = 1, w = 0, h = 0;
   var mouse = { x: -9999, y: -9999, active: false };
-  var glow = { x: -9999, y: -9999, a: 0 };
+  var trail = { x: -9999, y: -9999, a: 0 };
   var colors = {};
   var running = false;
 
@@ -42,7 +42,6 @@
     colors.accent = hexToRgb(css.getPropertyValue("--global-base-color") || "#2f6db5");
     colors.dot = dark ? [255, 255, 255] : [61, 57, 41];
     colors.dotAlpha = dark ? 0.09 : 0.11;
-    colors.glowAlpha = dark ? 0.26 : 0.2;
   }
 
   function resize() {
@@ -58,58 +57,53 @@
     return "rgba(" + c[0] + "," + c[1] + "," + c[2] + "," + a + ")";
   }
 
+  // Per-cell hash so each grid point keeps its own glyph as the cursor passes
+  function hash(x, y) {
+    var n = Math.sin(x * 12.9898 + y * 78.233) * 43758.5453;
+    return n - Math.floor(n);
+  }
+
   function draw() {
     ctx.clearRect(0, 0, w, h);
 
-    if (glow.a > 0.001) {
-      var g = ctx.createRadialGradient(glow.x, glow.y, 0, glow.x, glow.y, GLOW);
-      g.addColorStop(0, rgba(colors.accent, colors.glowAlpha * glow.a));
-      g.addColorStop(0.45, rgba(colors.accent, colors.glowAlpha * 0.35 * glow.a));
-      g.addColorStop(1, rgba(colors.accent, 0));
-      ctx.fillStyle = g;
-      ctx.fillRect(glow.x - GLOW, glow.y - GLOW, GLOW * 2, GLOW * 2);
-    }
-
-    var mx = glow.x, my = glow.y, r2 = RADIUS * RADIUS;
-    var base = rgba(colors.dot, colors.dotAlpha);
-    ctx.fillStyle = base;
+    var mx = trail.x, my = trail.y, r2 = RADIUS * RADIUS;
+    ctx.fillStyle = rgba(colors.dot, colors.dotAlpha);
     ctx.beginPath();
     var lit = [];
     for (var y = SPACING / 2; y < h; y += SPACING) {
       for (var x = SPACING / 2; x < w; x += SPACING) {
         var dx = x - mx, dy = y - my, d2 = dx * dx + dy * dy;
-        if (glow.a > 0.001 && d2 < r2) {
-          lit.push(x, y, dx, dy, Math.sqrt(d2));
+        if (trail.a > 0.001 && d2 < r2) {
+          lit.push(x, y, Math.sqrt(d2));
           continue;
         }
-        ctx.moveTo(x + 1, y);
-        ctx.arc(x, y, 1, 0, 6.2832);
+        ctx.rect(x - 0.6, y - 0.6, 1.2, 1.2);
       }
     }
     ctx.fill();
 
-    // Dots near the cursor: pushed outward, larger and tinted with the accent
-    for (var i = 0; i < lit.length; i += 5) {
-      var d = lit[i + 4], t = 1 - d / RADIUS, k = t * t * glow.a;
-      var off = d > 0 ? (PUSH * k) / d : 0;
-      var px = lit[i] + lit[i + 2] * off, py = lit[i + 1] + lit[i + 3] * off;
-      ctx.fillStyle = rgba(colors.accent, colors.dotAlpha + 0.7 * k);
-      ctx.beginPath();
-      ctx.arc(px, py, 1 + 1.8 * k, 0, 6.2832);
-      ctx.fill();
+    // Near the cursor, grid points turn into monospace glyphs in the accent colour
+    ctx.font = "500 11px " + MONO;
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+    for (var i = 0; i < lit.length; i += 3) {
+      var t = 1 - lit[i + 2] / RADIUS, k = t * trail.a;
+      var level = Math.min(GLYPHS.length - 1, Math.floor((k + 0.25 * hash(lit[i], lit[i + 1])) * GLYPHS.length));
+      ctx.fillStyle = rgba(colors.accent, colors.dotAlpha + 0.55 * k);
+      ctx.fillText(GLYPHS[level], lit[i], lit[i + 1]);
     }
   }
 
   function tick() {
     var target = mouse.active ? 1 : 0;
-    if (glow.x < -9000) { glow.x = mouse.x; glow.y = mouse.y; }
-    glow.x += (mouse.x - glow.x) * 0.12;
-    glow.y += (mouse.y - glow.y) * 0.12;
-    glow.a += (target - glow.a) * 0.08;
+    if (trail.x < -9000) { trail.x = mouse.x; trail.y = mouse.y; }
+    trail.x += (mouse.x - trail.x) * 0.2;
+    trail.y += (mouse.y - trail.y) * 0.2;
+    trail.a += (target - trail.a) * 0.08;
     draw();
 
-    var settled = Math.abs(mouse.x - glow.x) < 0.3 && Math.abs(mouse.y - glow.y) < 0.3 &&
-      Math.abs(target - glow.a) < 0.002;
+    var settled = Math.abs(mouse.x - trail.x) < 0.3 && Math.abs(mouse.y - trail.y) < 0.3 &&
+      Math.abs(target - trail.a) < 0.002;
     if (settled) { running = false; return; }
     requestAnimationFrame(tick);
   }
