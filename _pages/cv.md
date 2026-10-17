@@ -18,7 +18,7 @@ redirect_from:
 
 ## Research interests
 
-Bayesian inference and model updating · Bayesian evidence estimation · Rare-event simulation and structural reliability · Importance sampling, subset simulation and MCMC · Machine learning for spectroscopy
+Reliability estimation · Bayesian updating · Machine Learning · Spectral analysis
 
 ## Publications
 

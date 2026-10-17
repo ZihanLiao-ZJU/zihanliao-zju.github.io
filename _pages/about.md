@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-<p class="hero__kicker">Bayesian inference · Structural reliability · Rare-event simulation</p>
+<p class="hero__kicker">Reliability estimation · Bayesian updating · Machine Learning · Spectral analysis</p>
 
 I study how to make probabilistic computation reliable when it is hard: estimating very small failure probabilities, computing Bayesian evidence, and sampling posteriors that are high-dimensional or have several separated modes. Much of my work borrows ideas from structural reliability, such as subset simulation and sequential importance sampling, and turns them into general-purpose samplers for Bayesian updating. I also apply machine learning to quantitative surface-enhanced Raman spectroscopy.
 
