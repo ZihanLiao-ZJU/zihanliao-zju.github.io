@@ -1,0 +1,57 @@
+/* ==========================================================================
+    CLAUDE THEME - LIGHT VERSION
+    Warm cream paper, ink-brown text and a terracotta accent.
+    ========================================================================== */
+
+/* Color codes used for the theme */
+$primary-color              : #c96442;
+$gray                       : #83827d;
+$dark-gray                  : #3d3929;
+$darker-gray                : #1f1e1d;
+$light-gray                 : #b8b5a9;
+$lighter-gray               : #e8e6dc;
+
+$cream                      : #faf9f5;
+$cream-dark                 : #f0eee6;
+
+/* Color codes used for the site */
+$danger-color               : #b5452b;
+$info-color                 : #c96442;
+$notice-color               : #83827d;
+$success-color              : #5f7a4d;
+$warning-color              : #d4a24c;
+
+/* Other basic settings for the template */
+$border-radius              : 10px;
+$box-shadow                 : 0 1px 2px rgba(61, 57, 41, 0.06);
+$global-transition          : all 0.2s ease-in-out;
+$masthead-height            : 70px;
+$navicon-width              : 28px;
+$navicon-height             : 4px;
+$sidebar-link-max-width     : 250px;
+$sidebar-screen-min-width   : 1024px;
+
+/* Light theme for the site */
+:root {
+    --global-base-color                 : #{$primary-color};
+    --global-bg-color                   : #{$cream};
+    --global-footer-bg-color            : #{$cream-dark};
+    --global-border-color               : #{$lighter-gray};
+    --global-dark-border-color          : #d6d2c4;
+    --global-code-background-color      : #{$cream-dark};
+    --global-code-text-color            : #{$dark-gray};
+    --global-fig-caption-color          : #{$gray};
+    --global-link-color                 : #b4552d;
+    --global-link-color-hover           : #8a3f24;
+    --global-link-color-visited         : #b4552d;
+    --global-masthead-link-color        : #{$dark-gray};
+    --global-masthead-link-color-hover  : #{$primary-color};
+    --global-text-color                 : #{$dark-gray};
+    --global-text-color-light           : #{$gray};
+    --global-thead-color                : #{$cream-dark};
+
+    --claude-card-bg                    : #ffffff;
+    --claude-chip-bg                    : #{$cream-dark};
+    --claude-accent-soft                : #f5e3d9;
+    --claude-heading-color              : #{$darker-gray};
+}

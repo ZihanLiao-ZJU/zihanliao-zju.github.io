@@ -9,56 +9,23 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Education
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+<ul class="timeline">
+  <li><span class="timeline__year">2025</span><div><strong>Ph.D.</strong>, Zhejiang University</div></li>
+  <li><span class="timeline__year">2019</span><div><strong>Bachelor's degree</strong>, Nanchang University</div></li>
+</ul>
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+## Research interests
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+Bayesian inference and model updating · Bayesian evidence estimation · Rare-event simulation and structural reliability · Importance sampling, subset simulation and MCMC · Machine learning for spectroscopy
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Publications
+
+<ol class="pub-list">
+  {% assign pubs = site.data.publications | sort: "year" | reverse %}{% for pub in pubs %}{% include publication-item.html pub=pub %}{% endfor %}
+</ol>
+
+## Open-source code
+
+{% include code-list.html %}

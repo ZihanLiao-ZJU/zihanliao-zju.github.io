@@ -1,0 +1,59 @@
+# Publications, newest first.
+# category: manuscripts (journal articles) or preprints, matching publication_category in _config.yml.
+# Fields: title, authors, venue, details, year, category, and optional links (paper, arxiv, code).
+# Author names matching site.author.name are highlighted automatically.
+
+- title: "Tailored Deep Learning–Assisted In Situ SERS: Overcoming Surface Irregularities-Induced Large Signal Variation on Biological Tissues"
+  authors: "Ling Guo, Zihan Liao, Tianxi Yang"
+  venue: "Analytical Chemistry"
+  year: 2026
+  category: manuscripts
+  code: "https://github.com/ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
+
+- title: "Sequential multiple importance sampling for robust and efficient (possibly high-dimensional) reliability estimation"
+  venue: "Mechanical Systems and Signal Processing"
+  details: "259, 114798"
+  year: 2026
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.ymssp.2026.114798"
+  code: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation"
+
+- title: "From likelihood to limit state: A reliability-inspired framework for Bayesian evidence estimation and high-dimensional sampling"
+  authors: "Zihan Liao, Binbin Li, Hua-Ping Wan"
+  venue: "Mechanical Systems and Signal Processing"
+  year: 2025
+  category: manuscripts
+  paper: "https://www.sciencedirect.com/science/article/pii/S0888327025006703"
+  arxiv: "https://arxiv.org/abs/2409.19910"
+  code: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
+
+- title: "Relaxed subset simulation for reliability estimation"
+  authors: "Binbin Li, Weili Xia, Zihan Liao"
+  venue: "Reliability Engineering & System Safety"
+  details: "264, 111302"
+  year: 2025
+  category: manuscripts
+  paper: "https://doi.org/10.1016/j.ress.2025.111302"
+
+- title: "Understanding the geometry of high dimensional Bayesian inference via projected one-dimensional measures"
+  authors: "Binbin Li, Mingzhu Chen, Sin-Chi Kuok, Zihan Liao, Armen Der Kiureghian"
+  venue: "SSRN preprint"
+  year: 2026
+  category: preprints
+  paper: "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7370862"
+
+- title: "Sequential multiple importance sampling for high-dimensional Bayesian inference"
+  authors: "Binbin Li, Xiao He, Zihan Liao"
+  venue: "arXiv preprint"
+  details: "arXiv:2507.05114"
+  year: 2025
+  category: preprints
+  arxiv: "https://arxiv.org/abs/2507.05114"
+
+- title: "Curse of dimensionality in Bayesian model updating"
+  authors: "Binbin Li, Zihan Liao"
+  venue: "arXiv preprint"
+  details: "arXiv:2506.17744"
+  year: 2025
+  category: preprints
+  arxiv: "https://arxiv.org/abs/2506.17744"

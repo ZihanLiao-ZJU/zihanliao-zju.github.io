@@ -1,0 +1,17 @@
+{% assign pub = include.pub %}
+{% capture me %}<span class="pub__me">{{ site.author.name }}</span>{% endcapture %}
+<li class="pub">
+  <span class="pub__year">{{ pub.year }}</span>
+  <div class="pub__body">
+    <p class="pub__title">{% if pub.paper %}<a href="{{ pub.paper }}">{{ pub.title }}</a>{% elsif pub.arxiv %}<a href="{{ pub.arxiv }}">{{ pub.title }}</a>{% else %}{{ pub.title }}{% endif %}</p>
+    {% if pub.authors %}<p class="pub__authors">{{ pub.authors | replace: site.author.name, me }}</p>{% endif %}
+    <p class="pub__venue"><em>{{ pub.venue }}</em>{% if pub.details %}, {{ pub.details }}{% endif %}</p>
+    {% if pub.paper or pub.arxiv or pub.code %}
+    <p class="pub__links">
+      {% if pub.paper %}<a class="chip" href="{{ pub.paper }}">Paper</a>{% endif %}
+      {% if pub.arxiv %}<a class="chip" href="{{ pub.arxiv }}">arXiv</a>{% endif %}
+      {% if pub.code %}<a class="chip chip--accent" href="{{ pub.code }}"><i class="fab fa-github" aria-hidden="true"></i> Code</a>{% endif %}
+    </p>
+    {% endif %}
+  </div>
+</li>

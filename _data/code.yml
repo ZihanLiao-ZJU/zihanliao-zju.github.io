@@ -1,0 +1,25 @@
+# Open-source research code, shown on the home page and the Code page.
+
+- name: "SeMIS for Reliability Estimation"
+  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation"
+  language: "MATLAB"
+  description: "Sequential multiple importance sampling for estimating small failure probabilities, including in high-dimensional problems, with optional single-run CoV bounds and twelve benchmark examples."
+  paper: "Mechanical Systems and Signal Processing, 2026"
+
+- name: "SeMIS for Multimodal Bayesian Inference"
+  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
+  language: "MATLAB"
+  description: "Softly truncated, prior-based proposal sequences combined through multiple importance sampling for Bayesian evidence estimation and posterior sampling with multimodal, high-dimensional posteriors."
+  paper: "Mechanical Systems and Signal Processing"
+
+- name: "Subset Simulation for Bayesian Updating"
+  repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
+  language: "MATLAB"
+  description: "Treats the likelihood as a limit-state function and uses subset simulation to estimate the Bayesian evidence, with a CoV correction for correlated Markov chain samples, and to draw posterior samples."
+  paper: "Mechanical Systems and Signal Processing, 2025"
+
+- name: "1D-CNN-Assisted SERS Quantification"
+  repo: "ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
+  language: "MATLAB"
+  description: "A one-dimensional convolutional neural network for quantitative regression of surface-enhanced Raman spectra, reporting calibration and test-set metrics including RMSEP and LOD."
+  paper: "Analytical Chemistry, 2026"
