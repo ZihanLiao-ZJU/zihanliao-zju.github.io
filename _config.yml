@@ -12,7 +12,7 @@ site_theme               : "claude" # The available themes options are "claude",
 title                    : "Zihan Liao"
 title_separator          : "-"
 name                     : &name "Zihan Liao"
-description              : &description "Zihan Liao, Bayesian inference and structural reliability"   # Update this with a general description of your site, this is the default if not overridden by a page
+description              : &description "Zihan Liao: reliability estimation, Bayesian updating, machine learning and spectral analysis"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://zihanliao-zju.github.io"
 baseurl                  : ""
 repository               : "ZihanLiao-ZJU/zihanliao-zju.github.io"
@@ -22,11 +22,11 @@ repository               : "ZihanLiao-ZJU/zihanliao-zju.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "avatar.svg"
+  avatar           : "avatar.jpg"
   name             : "Zihan Liao"
   name_zh          : "廖子涵"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D., Zhejiang University. Bayesian inference, rare-event simulation and structural reliability."
+  bio              : "Ph.D., Zhejiang University. Reliability estimation, Bayesian updating, machine learning and spectral analysis."
   location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : # URL
