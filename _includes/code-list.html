@@ -1,0 +1,11 @@
+<div class="code-grid">
+  {% for tool in site.data.code %}
+  <a class="code-card" href="https://github.com/{{ tool.repo }}">
+    <span class="code-card__lang">{{ tool.language }}</span>
+    <h3 class="code-card__name">{{ tool.name }}</h3>
+    <p class="code-card__desc">{{ tool.description }}</p>
+    {% if tool.paper %}<p class="code-card__paper">{{ tool.paper }}</p>{% endif %}
+    <span class="code-card__repo"><i class="fab fa-github" aria-hidden="true"></i> {{ tool.repo | split: "/" | last }}</span>
+  </a>
+  {% endfor %}
+</div>

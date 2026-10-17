@@ -2,6 +2,10 @@
 
 <!-- start custom head snippets -->
 
+<!-- Fonts for the Claude-style theme are self-hosted in /assets/fonts/claude so they also load where Google Fonts is blocked -->
+<link rel="preload" href="{{ base_path }}/assets/fonts/claude/source-serif-4-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ base_path }}/assets/fonts/claude/inter-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+
 <!-- Support for Academicons -->
 <link rel="preload" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css"></noscript>

@@ -8,11 +8,11 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "default" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+site_theme               : "claude" # The available themes options are "claude", "default", "air", "sunrise", "mint", "dirt" and "contrast"
+title                    : "Zihan Liao"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Zihan Liao"
+description              : &description "Zihan Liao, Bayesian inference and structural reliability"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : "https://zihanliao-zju.github.io"
 baseurl                  : ""
 repository               : "ZihanLiao-ZJU/zihanliao-zju.github.io"
@@ -22,11 +22,11 @@ repository               : "ZihanLiao-ZJU/zihanliao-zju.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
+  avatar           : "avatar.svg"
   name             : "Zihan Liao"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
+  bio              : "Ph.D., Zhejiang University. Bayesian inference, rare-event simulation and structural reliability."
+  location         : "Hangzhou, China"
   employer         : "Zhejiang University"
   uri              : # URL
   email            : "11912093@zju.edu.cn" 
@@ -50,7 +50,7 @@ author:
   bitbucket        : # Username - Update with your username on the site
   codepen          : # Username
   dribbble         : # Username
-  github           : "academicpages"
+  github           : "ZihanLiao-ZJU"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
@@ -86,7 +86,9 @@ publication_category:
   books:
     title: 'Books'
   manuscripts:
-    title: 'Journal Articles'    
+    title: 'Journal Articles'
+  preprints:
+    title: 'Preprints'
   conferences:
     title: 'Conference Papers'
 
