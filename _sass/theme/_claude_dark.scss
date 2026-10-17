@@ -3,7 +3,7 @@
     ========================================================================== */
 
 /* Color codes used for the theme */
-$primary-color              : #d97757;
+$primary-color              : #6aa6e8;
 $gray                       : #9c9a92;
 $dark-gray                  : #3d3929;
 $darker-gray                : #1f1e1d;
@@ -13,13 +13,13 @@ $background                 : #262624;
 $background-light           : #30302e;
 $background-lighter         : #3a3936;
 $text                       : #e8e6dc;
-$link                       : #e08a6a;
-$link-dark                  : #f0a588;
-$link-light                 : #e08a6a;
+$link                       : #7db3ee;
+$link-dark                  : #a6cbf4;
+$link-light                 : #7db3ee;
 
 /* Color codes used for the site */
 $danger-color               : #e07a5f;
-$info-color                 : #d97757;
+$info-color                 : #6aa6e8;
 $notice-color               : #9c9a92;
 $success-color              : #8fae7a;
 $warning-color              : #e0b45c;
@@ -55,6 +55,6 @@ html[data-theme="dark"] {
 
     --claude-card-bg                    : #{$background-light};
     --claude-chip-bg                    : #{$background-lighter};
-    --claude-accent-soft                : #4a3128;
+    --claude-accent-soft                : #1f3550;
     --claude-heading-color              : #f5f4ee;
 }

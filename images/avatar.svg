@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" role="img" aria-label="Zihan Liao">
-  <rect width="240" height="240" fill="#E9DCCB"/>
-  <circle cx="120" cy="120" r="84" fill="none" stroke="#C96442" stroke-width="2" opacity="0.5"/>
-  <text x="120" y="138" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#8A3F24" letter-spacing="2">ZL</text>
+  <rect width="240" height="240" fill="#DCE6F2"/>
+  <circle cx="120" cy="120" r="84" fill="none" stroke="#2F6DB5" stroke-width="2" opacity="0.5"/>
+  <text x="120" y="138" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="64" fill="#1B4A80" letter-spacing="2">ZL</text>
 </svg>
