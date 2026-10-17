@@ -87,10 +87,10 @@ publication_category:
     title: 'Books'
   manuscripts:
     title: 'Journal Articles'
-  preprints:
-    title: 'Preprints'
   conferences:
     title: 'Conference Papers'
+  preprints:
+    title: 'Preprints'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews

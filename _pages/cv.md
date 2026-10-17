@@ -22,9 +22,7 @@ Bayesian inference and model updating · Bayesian evidence estimation · Rare-ev
 
 ## Publications
 
-<ol class="pub-list">
-  {% assign pubs = site.data.publications | sort: "year" | reverse %}{% for pub in pubs %}{% include publication-item.html pub=pub %}{% endfor %}
-</ol>
+{% include publication-list.html %}
 
 ## Open-source code
 
