@@ -60,7 +60,7 @@
 - title: "Bayesian mixture of factor analyzers for structural damage detection under varying environmental conditions"
   authors: "Binbin Li, Yulong Zhang, Zihan Liao, Zhilin Xue"
   venue: "Journal of Infrastructure Intelligence and Resilience"
-  details: "4, 100140"
+  details: "4(2), 100140"
   year: 2025
   category: manuscripts
   paper: "https://doi.org/10.1016/j.iintel.2025.100140"
@@ -81,11 +81,19 @@
   category: manuscripts
   paper: "https://doi.org/10.1016/j.compstruc.2023.107268"
 
-- title: "Directional subset simulation for reliability estimation"
-  authors: "Weili Xia, Binbin Li, Zihan Liao"
-  venue: "14th International Conference on Structural Safety and Reliability (ICOSSAR)"
-  year: 2025
-  category: conferences
+- title: "子集模拟的混合采样算法"
+  authors: "廖子涵, 李宾宾"
+  venue: "计算力学学报 (Chinese Journal of Computational Mechanics)"
+  details: "40(5), 693–700"
+  year: 2023
+  category: manuscripts
+
+- title: "拉索模态参数全过程自动化识别方法"
+  authors: "安永辉, 薛志林, 廖子涵, 李宾宾"
+  venue: "土木工程学报 (China Civil Engineering Journal)"
+  details: "56(7), 82–91"
+  year: 2022
+  category: manuscripts
 
 - title: "A strategy for optimal sensor placement in modal signal-to-noise ratio-based structural health monitoring"
   authors: "Dahai Xiao, Zihan Liao, Binbin Li"
@@ -94,6 +102,12 @@
   year: 2022
   category: conferences
   paper: "https://doi.org/10.1109/ICHCE57331.2022.10042699"
+
+- title: "Adaptive stratified sampling using subset simulation for Bayesian analysis"
+  authors: "Zihan Liao, Binbin Li"
+  venue: "7th International Symposium on Reliability Engineering and Risk Management (ISRERM)"
+  year: 2020
+  category: conferences
 
 - title: "Understanding the geometry of high dimensional Bayesian inference via projected one-dimensional measures"
   authors: "Binbin Li, Mingzhu Chen, Sin-Chi Kuok, Zihan Liao, Armen Der Kiureghian"

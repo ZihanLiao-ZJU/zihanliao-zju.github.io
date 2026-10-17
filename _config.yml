@@ -24,6 +24,7 @@ author:
   # Biographic information
   avatar           : "avatar.svg"
   name             : "Zihan Liao"
+  name_zh          : "廖子涵"
   pronouns         : # example: "she/her"  
   bio              : "Ph.D., Zhejiang University. Bayesian inference, rare-event simulation and structural reliability."
   location         : "Hangzhou, China"
