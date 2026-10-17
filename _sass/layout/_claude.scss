@@ -468,3 +468,50 @@ body {
     font-size: 2.1em;
   }
 }
+
+/* Cursor-following background (assets/js/cursor-glow.js)
+   ========================================================================== */
+
+/* The canvas sits behind the page, so the body itself must let it show through */
+body {
+  background-color: transparent;
+}
+
+.bg-fx {
+  position: fixed;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.masthead {
+  background: color-mix(in srgb, var(--global-bg-color) 82%, transparent);
+  -webkit-backdrop-filter: saturate(140%) blur(10px);
+  backdrop-filter: saturate(140%) blur(10px);
+}
+
+/* Two soft blue washes that drift slowly behind everything */
+html::before {
+  content: "";
+  position: fixed;
+  inset: -20%;
+  z-index: -2;
+  pointer-events: none;
+  background:
+    radial-gradient(40% 35% at 78% 18%, color-mix(in srgb, var(--global-base-color) 14%, transparent), transparent 70%),
+    radial-gradient(35% 30% at 12% 85%, color-mix(in srgb, var(--global-base-color) 10%, transparent), transparent 70%);
+  animation: bg-drift 28s ease-in-out infinite alternate;
+}
+
+@keyframes bg-drift {
+  from { transform: translate3d(-3%, -2%, 0) scale(1); }
+  to   { transform: translate3d(3%, 3%, 0) scale(1.08); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html::before {
+    animation: none;
+  }
+}
