@@ -1,6 +1,6 @@
 # Publications, newest first.
 # category: manuscripts (journal articles), conferences or preprints, matching publication_category in _config.yml.
-# Fields: title, authors, venue, details, year, category, and optional links (paper, arxiv, code).
+# Fields: title, authors, venue, details, year, category, and optional links (paper, arxiv, code, code_python).
 # Author names matching site.author.name are highlighted automatically.
 
 - title: "Tailored Deep Learning–Assisted In Situ SERS: Overcoming Surface Irregularities-Induced Large Signal Variation on Biological Tissues"
@@ -20,6 +20,7 @@
   category: manuscripts
   paper: "https://doi.org/10.1016/j.ymssp.2026.114798"
   code: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation"
+  code_python: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation-Python"
 
 - title: "Sequential multiple importance sampling for multi-modal Bayesian inference"
   authors: "Binbin Li, Xiao He, Zihan Liao"
@@ -30,6 +31,7 @@
   paper: "https://doi.org/10.1016/j.ymssp.2025.113788"
   arxiv: "https://arxiv.org/abs/2507.05114"
   code: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
+  code_python: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python"
 
 - title: "From likelihood to limit state: A reliability-inspired framework for Bayesian evidence estimation and high-dimensional sampling"
   authors: "Zihan Liao, Binbin Li, Hua-Ping Wan"
@@ -40,6 +42,7 @@
   paper: "https://doi.org/10.1016/j.ymssp.2025.112969"
   arxiv: "https://arxiv.org/abs/2409.19910"
   code: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
+  code_python: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating-Python"
 
 - title: "Relaxed subset simulation for reliability estimation"
   authors: "Binbin Li, Weili Xia, Zihan Liao"

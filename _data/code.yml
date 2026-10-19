@@ -6,16 +6,34 @@
   description: "Sequential multiple importance sampling for estimating small failure probabilities, including in high-dimensional problems, with optional single-run CoV bounds and twelve benchmark examples."
   paper: "Mechanical Systems and Signal Processing, 2026"
 
+- name: "SeMIS for Reliability Estimation (Python)"
+  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation-Python"
+  language: "Python"
+  description: "Python port of the MATLAB SeMIS reliability code (NumPy/SciPy), with the same classes and twelve benchmark examples, checked against the MATLAB results."
+  paper: "Mechanical Systems and Signal Processing, 2026"
+
 - name: "SeMIS for Multimodal Bayesian Inference"
   repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
   language: "MATLAB"
   description: "Softly truncated, prior-based proposal sequences combined through multiple importance sampling for Bayesian evidence estimation and posterior sampling with multimodal, high-dimensional posteriors."
   paper: "Mechanical Systems and Signal Processing, 2026"
 
+- name: "SeMIS for Multimodal Bayesian Inference (Python)"
+  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python"
+  language: "Python"
+  description: "Python port of the MATLAB SeMIS code for evidence estimation and posterior sampling (NumPy/SciPy), with the same benchmarks, checked against the MATLAB results."
+  paper: "Mechanical Systems and Signal Processing, 2026"
+
 - name: "Subset Simulation for Bayesian Updating"
   repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
   language: "MATLAB"
   description: "Treats the likelihood as a limit-state function and uses subset simulation to estimate the Bayesian evidence, with a CoV correction for correlated Markov chain samples, and to draw posterior samples."
+  paper: "Mechanical Systems and Signal Processing, 2025"
+
+- name: "Subset Simulation for Bayesian Updating (Python)"
+  repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating-Python"
+  language: "Python"
+  description: "Python port of the MATLAB subset simulation code for Bayesian evidence estimation and posterior sampling (NumPy/SciPy), checked against the MATLAB results."
   paper: "Mechanical Systems and Signal Processing, 2025"
 
 - name: "1D-CNN-Assisted SERS Quantification"
