@@ -11,7 +11,7 @@
         <{{ dataset_heading }} class="dataset-card__title">{{ dataset.title | escape }}</{{ dataset_heading }}>
         <p class="dataset-card__desc">{{ dataset.description | escape }}</p>
         <span class="dataset-card__doi">{{ dataset.doi | escape }}</span>
-        <span class="dataset-card__action">View dataset <span aria-hidden="true">↗</span></span>
+        <span class="dataset-card__action">View dataset</span>
       </div>
     </a>
     {% if dataset.image %}<p class="dataset-card__credit"><a href="{{ dataset.image_source | escape }}">Image: {{ dataset.image_credit | escape }}</a> · <a href="{{ dataset.image_license_url | escape }}">{{ dataset.image_license | escape }}</a></p>{% endif %}
