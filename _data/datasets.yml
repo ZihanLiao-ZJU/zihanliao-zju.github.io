@@ -6,14 +6,12 @@
   year: 2025
   doi: 10.7910/DVN/C8ZRHY
   url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C8ZRHY
-  image: /images/datasets/c8zrhy-sensor-layout.png
-  image_alt: Eight-story shear-model sensor-layout diagram with numbered measurement locations.
-  image_width: 354
-  image_height: 874
-  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=12100361&version=1.0
-  image_credit: Dataset authors
-  image_license: CC0 1.0
-  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+  image: /images/datasets/c8zrhy-laboratory-photo.jpg
+  image_alt: Photograph of the eight-story metal shear model in the laboratory.
+  image_width: 1279
+  image_height: 1706
+  image_source: /images/datasets/c8zrhy-laboratory-photo.jpg
+  image_credit: Provided by Zihan Liao
 - id: MQDCWS
   title: Datasets for the ambient vibration tests of the Yangtze River International Conference Center
   description: Ambient-vibration data from 14 measurement setups at the Yangtze River International Conference Center in Jiangsu,
@@ -70,11 +68,11 @@
   year: 2023
   doi: 10.7910/DVN/VRGPXU
   url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VRGPXU
-  image: /images/datasets/vrgpxu-field-test-configuration.png
-  image_alt: Structural schematic of the steel-truss footbridge, showing measurement locations LOC1–LOC14 and excitation locations.
-  image_width: 3955
-  image_height: 1504
-  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=7246670
+  image: /images/datasets/vrgpxu-front-view.jpg
+  image_alt: Front-view photograph of the enclosed steel-truss footbridge connecting campus buildings at Zhejiang University.
+  image_width: 4032
+  image_height: 3024
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=7246678
   image_credit: Dataset authors
   image_license: CC0 1.0
   image_license_url: https://creativecommons.org/publicdomain/zero/1.0/

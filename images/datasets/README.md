@@ -1,6 +1,6 @@
 # Dataset cover sources
 
-The five covers are authentic structural photographs or diagrams from the linked Harvard Dataverse records. They are hosted locally to avoid hotlink dependencies. Source datasets are released under CC0 1.0. Dataset authors are credited for provenance, not as a claim of sole image authorship. No AI-generated images are used.
+The five current covers are authentic structural photographs hosted locally to avoid hotlink dependencies. Four come from the linked Harvard Dataverse records released under CC0 1.0; dataset authors are credited for provenance, not as a claim of sole image authorship. The C8ZRHY photograph was supplied by Zihan Liao for this homepage and is not labeled CC0. No AI-generated images are used.
 
 Original pixels are preserved; CSS `object-fit: contain` displays the complete images without cropping.
 
@@ -8,15 +8,13 @@ Original pixels are preserved; CSS `object-fit: contain` displays the complete i
 
 - Dataset: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C8ZRHY
 - Authors: Binbin Li; Zihan Liao; Wei Zhu
-- Local cover: `c8zrhy-sensor-layout.png`
-- Source filename: `Experimental scheme of Basyesian model updating.docx`
-- Source document image: `word/media/image2.tiff` (sensor-layout figure)
-- Original source: https://dataverse.harvard.edu/api/access/datafile/12100361
-- Image source page: https://dataverse.harvard.edu/file.xhtml?fileId=12100361&version=1.0
-- License: CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
-- Original dimensions: 354 × 874
-- Conversion: Lossless TIFF-to-PNG format conversion only; no crop or content alteration.
-- SHA-256: `9f630cb5d775dc2a98206f1fa3bded90a399d1eca7479c1fd9a8bb393c906c26`
+- Local cover: `c8zrhy-laboratory-photo.jpg`
+- Source: Photograph supplied by Zihan Liao and explicitly selected for this cover on 2026-10-22.
+- Credit: Provided by Zihan Liao.
+- Permission: Supplied for use on this homepage; no public reuse license asserted.
+- Original dimensions: 1279 × 1706
+- Original bytes: 465,464; JPEG preserved without cropping or recompression.
+- SHA-256: `acf33d26c155829edafbde6e6b7d9e865cb6b470920108056da980e25a64af9c`
 
 ## MQDCWS: Datasets for the ambient vibration tests of the Yangtze River International Conference Center
 
@@ -64,10 +62,12 @@ Original pixels are preserved; CSS `object-fit: contain` displays the complete i
 
 - Dataset: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VRGPXU
 - Authors: Wang, Peixiang; Li, Binbin; Zhu, Wei; Liao, Zihan; Xue, Zhilin
-- Local cover: `vrgpxu-field-test-configuration.png`
-- Source filename: `field test configuration.png`
-- Original source: https://dataverse.harvard.edu/api/access/datafile/7246670
-- Image source page: https://dataverse.harvard.edu/file.xhtml?fileId=7246670
+- Local cover: `vrgpxu-front-view.jpg`
+- Source filename: `front view.JPG`
+- Original source: https://dataverse.harvard.edu/api/access/datafile/7246678
+- Image source page: https://dataverse.harvard.edu/file.xhtml?fileId=7246678
 - License: CC0 1.0 — https://creativecommons.org/publicdomain/zero/1.0/
-- Original dimensions: 3955 × 1504
-- SHA-256: `ee31937442a665ad267f88eeb30376705273ee272e2b66680abcb9fef954c41e`
+- Original dimensions: 4032 × 3024
+- Original bytes: 3,669,862; JPEG preserved without cropping or recompression.
+- Dataverse MD5: `da19f4177f2c97a3d00b58f926f0413a`
+- SHA-256: `ea4e48b2b6b7d54ec6690d78f36775be6ce872562ff8c7393c90ad428366e571`
