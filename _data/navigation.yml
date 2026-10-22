@@ -11,5 +11,8 @@ main:
   - title: "Code"
     url: /code/
 
+  - title: "Datasets"
+    url: /datasets/
+
   - title: "CV"
     url: /cv/

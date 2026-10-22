@@ -1,0 +1,20 @@
+{% assign dataset_heading = include.heading | default: "h3" %}
+<div class="dataset-grid">
+  {% for dataset in site.data.datasets %}
+  <article class="dataset-card{% unless dataset.image %} dataset-card--text-only{% endunless %}">
+    <a class="dataset-card__link" href="{{ dataset.url | escape }}">
+      {% if dataset.image %}<div class="dataset-card__cover">
+        <img src="{{ dataset.image | relative_url }}" alt="{{ dataset.image_alt | escape }}" width="{{ dataset.image_width }}" height="{{ dataset.image_height }}" loading="lazy" decoding="async">
+      </div>{% endif %}
+      <div class="dataset-card__body">
+        <span class="dataset-card__meta">Harvard Dataverse · {{ dataset.year }}</span>
+        <{{ dataset_heading }} class="dataset-card__title">{{ dataset.title | escape }}</{{ dataset_heading }}>
+        <p class="dataset-card__desc">{{ dataset.description | escape }}</p>
+        <span class="dataset-card__doi">{{ dataset.doi | escape }}</span>
+        <span class="dataset-card__action">View dataset <span aria-hidden="true">↗</span></span>
+      </div>
+    </a>
+    {% if dataset.image %}<p class="dataset-card__credit"><a href="{{ dataset.image_source | escape }}">Image: {{ dataset.image_credit | escape }}</a> · <a href="{{ dataset.image_license_url | escape }}">{{ dataset.image_license | escape }}</a></p>{% endif %}
+  </article>
+  {% endfor %}
+</div>

@@ -5,5 +5,9 @@
 <ol class="pub-list">
 {%- for pub in pubs -%}{% include publication-item.html pub=pub %}{%- endfor -%}
 </ol>
+{%- assign corresponding_pubs = pubs | where: "corresponding_author", true -%}
+{%- if corresponding_pubs.size > 0 -%}
+<p class="pub-list__note">* Corresponding author.</p>
+{%- endif -%}
 {%- endif -%}
 {%- endfor -%}
