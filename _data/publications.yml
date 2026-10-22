@@ -4,7 +4,8 @@
 # Author names matching site.author.name are highlighted automatically.
 
 - title: "Tailored Deep Learning–Assisted In Situ SERS: Overcoming Surface Irregularities-Induced Large Signal Variation on Biological Tissues"
-  authors: "Ling Guo, Zihan Liao, Tianxi Yang"
+  authors: "Ling Guo, Zihan Liao, Tianxi Yang*"
+  corresponding_author: true
   venue: "Analytical Chemistry"
   details: "98(25), 18645–18659"
   year: 2026
@@ -13,7 +14,8 @@
   code: "https://github.com/ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
 
 - title: "Sequential multiple importance sampling for robust and efficient (possibly high-dimensional) reliability estimation"
-  authors: "Weili Xia, Zihan Liao, Binbin Li"
+  authors: "Weili Xia, Zihan Liao*, Binbin Li"
+  corresponding_author: true
   venue: "Mechanical Systems and Signal Processing"
   details: "259, 114798"
   year: 2026
@@ -23,7 +25,8 @@
   code_python: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation-Python"
 
 - title: "Sequential multiple importance sampling for multi-modal Bayesian inference"
-  authors: "Binbin Li, Xiao He, Zihan Liao"
+  authors: "Binbin Li, Xiao He, Zihan Liao*"
+  corresponding_author: true
   venue: "Mechanical Systems and Signal Processing"
   details: "245, 113788"
   year: 2026
@@ -34,7 +37,8 @@
   code_python: "https://github.com/ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python"
 
 - title: "From likelihood to limit state: A reliability-inspired framework for Bayesian evidence estimation and high-dimensional sampling"
-  authors: "Zihan Liao, Binbin Li, Hua-Ping Wan"
+  authors: "Zihan Liao, Binbin Li, Hua-Ping Wan*"
+  corresponding_author: true
   venue: "Mechanical Systems and Signal Processing"
   details: "237, 112969"
   year: 2025
@@ -45,7 +49,8 @@
   code_python: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating-Python"
 
 - title: "Relaxed subset simulation for reliability estimation"
-  authors: "Binbin Li, Weili Xia, Zihan Liao"
+  authors: "Binbin Li, Weili Xia, Zihan Liao*"
+  corresponding_author: true
   venue: "Reliability Engineering & System Safety"
   details: "264, 111302"
   year: 2025
@@ -53,7 +58,8 @@
   paper: "https://doi.org/10.1016/j.ress.2025.111302"
 
 - title: "Enhanced generalized subset simulation with multiple importance sampling for reliability estimation"
-  authors: "Weili Xia, Zihan Liao"
+  authors: "Weili Xia, Zihan Liao*"
+  corresponding_author: true
   venue: "Computers & Structures"
   details: "313, 107741"
   year: 2025
@@ -61,7 +67,8 @@
   paper: "https://doi.org/10.1016/j.compstruc.2025.107741"
 
 - title: "Bayesian mixture of factor analyzers for structural damage detection under varying environmental conditions"
-  authors: "Binbin Li, Yulong Zhang, Zihan Liao, Zhilin Xue"
+  authors: "Binbin Li, Yulong Zhang, Zihan Liao, Zhilin Xue*"
+  corresponding_author: true
   venue: "Journal of Infrastructure Intelligence and Resilience"
   details: "4(2), 100140"
   year: 2025
@@ -69,7 +76,8 @@
   paper: "https://doi.org/10.1016/j.iintel.2025.100140"
 
 - title: "Enhancing subset simulation through Bayesian inference"
-  authors: "Zihan Liao, Xiao He, Weili Xia"
+  authors: "Zihan Liao*, Xiao He, Weili Xia"
+  corresponding_author: true
   venue: "Computer Methods in Applied Mechanics and Engineering"
   details: "432, 117392"
   year: 2024
@@ -77,7 +85,8 @@
   paper: "https://doi.org/10.1016/j.cma.2024.117392"
 
 - title: "An investigation into Markov chain Monte Carlo algorithms for Subset simulation: Emphasizing uncertainty analysis"
-  authors: "Zihan Liao, Weili Xia, Xiao He"
+  authors: "Zihan Liao*, Weili Xia, Xiao He"
+  corresponding_author: true
   venue: "Computers & Structures"
   details: "294, 107268"
   year: 2024
@@ -85,7 +94,8 @@
   paper: "https://doi.org/10.1016/j.compstruc.2023.107268"
 
 - title: "子集模拟的混合采样算法"
-  authors: "廖子涵, 李宾宾"
+  authors: "廖子涵, 李宾宾*"
+  corresponding_author: true
   venue: "计算力学学报 (Chinese Journal of Computational Mechanics)"
   details: "40(5), 693–700"
   year: 2023
