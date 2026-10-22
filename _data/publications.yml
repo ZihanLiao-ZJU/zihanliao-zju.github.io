@@ -104,19 +104,30 @@
   year: 2025
   category: conferences
 
+- title: "Iterated subset simulation for Bayesian analysis"
+  authors: "Zihan Liao, Li Binbin*"
+  venue: "ICOSSAR 2021–2022"
+  details: "Shanghai"
+  year: 2022
+  category: conferences
+  corresponding_author: true
+
 - title: "A strategy for optimal sensor placement in modal signal-to-noise ratio-based structural health monitoring"
-  authors: "Dahai Xiao, Zihan Liao, Binbin Li"
+  authors: "Dahai Xiao, Zihan Liao, Binbin Li*"
   venue: "2022 8th International Conference on Hydraulic and Civil Engineering (ICHCE)"
-  details: "1–8"
+  details: "Xian, 1–8"
   year: 2022
   category: conferences
   paper: "https://doi.org/10.1109/ICHCE57331.2022.10042699"
+  corresponding_author: true
 
 - title: "Adaptive stratified sampling using subset simulation for Bayesian analysis"
-  authors: "Zihan Liao, Binbin Li"
+  authors: "Zihan Liao, Li Binbin*"
   venue: "7th International Symposium on Reliability Engineering and Risk Management (ISRERM)"
+  details: "Beijing"
   year: 2020
   category: conferences
+  corresponding_author: true
 
 - title: "Understanding the geometry of high dimensional Bayesian inference via projected one-dimensional measures"
   authors: "Binbin Li, Mingzhu Chen, Sin-Chi Kuok, Zihan Liao, Armen Der Kiureghian"

@@ -1,0 +1,80 @@
+# Public experimental datasets, in the supplied order.
+- id: C8ZRHY
+  title: Datasets for eight-story shear model in the International Campus of Zhejiang University
+  description: Vibration-test data from an eight-story shear model at Zhejiang University’s International Campus in Haining,
+    China.
+  year: 2025
+  doi: 10.7910/DVN/C8ZRHY
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/C8ZRHY
+  image: /images/datasets/c8zrhy-sensor-layout.png
+  image_alt: Eight-story shear-model sensor-layout diagram with numbered measurement locations.
+  image_width: 354
+  image_height: 874
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=12100361&version=1.0
+  image_credit: Dataset authors
+  image_license: CC0 1.0
+  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+- id: MQDCWS
+  title: Datasets for the ambient vibration tests of the Yangtze River International Conference Center
+  description: Ambient-vibration data from 14 measurement setups at the Yangtze River International Conference Center in Jiangsu,
+    China.
+  year: 2025
+  doi: 10.7910/DVN/MQDCWS
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MQDCWS
+- id: DII6TN
+  title: Datasets for ZJU-IC Tower
+  description: Ambient-vibration measurements from the tower at Zhejiang University’s International Campus in Haining, China.
+  year: 2023
+  doi: 10.7910/DVN/DII6TN
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DII6TN
+  image: /images/datasets/dii6tn-field-photo.jpg
+  image_alt: Field photograph of the ZJU International Campus clock tower.
+  image_width: 433
+  image_height: 577
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=6930097&version=2.0
+  image_credit: Dataset authors
+  image_license: CC0 1.0
+  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+- id: DHUWUP
+  title: Datasets for Husutong Yangtze River Bridge
+  description: Ambient vibration test data from the Husutong Yangtze River Bridge, a road-rail cable-stayed bridge in China.
+  year: 2024
+  doi: 10.7910/DVN/DHUWUP
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DHUWUP
+  image: /images/datasets/dhuwup-field-photo.jpg
+  image_alt: Photograph of Husutong Yangtze River Bridge, showing the cable-stayed towers and deck across the river.
+  image_width: 960
+  image_height: 274
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=7528298
+  image_credit: Dataset authors
+  image_license: CC0 1.0
+  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+- id: LWZSSD
+  title: Dataset for Haining Dongshan Park Arch Bridge
+  description: Ambient vibration test data from the arch bridge in Dongshan Park, Haining, Zhejiang, China.
+  year: 2023
+  doi: 10.7910/DVN/LWZSSD
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/LWZSSD
+  image: /images/datasets/lwzssd-field-photo.png
+  image_alt: Photograph of the concrete arch bridge in Haining Dongshan Park.
+  image_width: 638
+  image_height: 229
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=6926600
+  image_credit: Dataset authors
+  image_license: CC0 1.0
+  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
+- id: VRGPXU
+  title: Datasets for steel-truss footbridge in the International Campus of Zhejiang University
+  description: Forced vibration test data from a steel-truss footbridge on Zhejiang University’s International Campus in Haining,
+    China.
+  year: 2023
+  doi: 10.7910/DVN/VRGPXU
+  url: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VRGPXU
+  image: /images/datasets/vrgpxu-field-test-configuration.png
+  image_alt: Structural schematic of the steel-truss footbridge, showing measurement locations LOC1–LOC14 and excitation locations.
+  image_width: 3955
+  image_height: 1504
+  image_source: https://dataverse.harvard.edu/file.xhtml?fileId=7246670
+  image_credit: Dataset authors
+  image_license: CC0 1.0
+  image_license_url: https://creativecommons.org/publicdomain/zero/1.0/
