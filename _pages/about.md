@@ -11,9 +11,7 @@ redirect_from:
 
 <p class="hero__kicker">Reliability estimation · Bayesian updating · Machine Learning · Spectral analysis</p>
 
-I study how to make probabilistic computation reliable when it is hard: estimating very small failure probabilities, computing Bayesian evidence, and sampling posteriors that are high-dimensional or have several separated modes. Much of my work borrows ideas from structural reliability, such as subset simulation and sequential importance sampling, and turns them into general-purpose samplers for Bayesian updating. I also apply machine learning to quantitative surface-enhanced Raman spectroscopy.
-
-I received my Ph.D. from [Zhejiang University](https://www.zju.edu.cn/english/) in 2025 and my bachelor's degree from [Nanchang University](https://www.ncu.edu.cn/) in 2019. The code for my papers is open source on [GitHub](https://github.com/{{ site.author.github }}).
+My research focuses on developing general-purpose Monte Carlo simulation (MCS) algorithms for reliability estimation, Bayesian updating, and optimization. I am also interested in applying machine learning to engineering data and chemical spectra.
 
 The research and data collection underlying my publications were carried out under the guidance of Professor Binbin Li at Zhejiang University. I gratefully acknowledge his support and guidance.
 
