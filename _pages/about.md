@@ -15,7 +15,6 @@ My research focuses on developing general-purpose Monte Carlo simulation (MCS) a
 
 The research and data collection underlying my publications were carried out under the guidance of Professor Binbin Li at Zhejiang University. I gratefully acknowledge his support and guidance.
 
-**Email:** [{{ site.author.email }}](mailto:{{ site.author.email }})
 
 ## Education
 
