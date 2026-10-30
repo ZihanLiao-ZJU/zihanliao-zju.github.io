@@ -16,6 +16,8 @@ My research focuses on developing general-purpose Monte Carlo simulation (MCS) a
 The research and data collection underlying my publications were carried out under the guidance of Professor Binbin Li at Zhejiang University. I gratefully acknowledge his support and guidance.
 
 
+**Contact:** Please use [11912093@zju.edu.cn](mailto:11912093@zju.edu.cn) for all correspondence. My former email address, zihanliao@intl.zju.edu.cn, is no longer in use.
+
 ## Education
 
 <ul class="timeline">
