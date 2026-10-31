@@ -24,6 +24,18 @@
   description: "Python port of the MATLAB SeMIS code for evidence estimation and posterior sampling (NumPy/SciPy), with the same benchmarks, checked against the MATLAB results."
   paper: "Mechanical Systems and Signal Processing, 2026"
 
+- name: "Relaxed Subset Simulation"
+  repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation"
+  language: "MATLAB"
+  description: "Relaxed subset simulation with hybrid intermediate domains and multiple importance sampling for reliability estimation, with two numerical examples."
+  paper: "Reliability Engineering & System Safety, 2025"
+
+- name: "Relaxed Subset Simulation (Python)"
+  repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation-Python"
+  language: "Python"
+  description: "Python implementation of the relaxed subset simulation MIS variant, with the same two numerical examples and corresponding source files."
+  paper: "Reliability Engineering & System Safety, 2025"
+
 - name: "Generalized Subset Simulation with Multiple Importance Sampling"
   repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
   language: "MATLAB"

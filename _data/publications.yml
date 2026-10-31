@@ -57,6 +57,8 @@
   year: 2025
   category: manuscripts
   paper: "https://doi.org/10.1016/j.ress.2025.111302"
+  code: "https://github.com/ZihanLiao-ZJU/Relaxed-Subset-Simulation"
+  code_python: "https://github.com/ZihanLiao-ZJU/Relaxed-Subset-Simulation-Python"
 
 - title: "Enhanced generalized subset simulation with multiple importance sampling for reliability estimation"
   authors: "Weili Xia, Zihan Liao*"
