@@ -25,13 +25,13 @@
   paper: "Mechanical Systems and Signal Processing, 2026"
 
 - name: "Generalized Subset Simulation with Multiple Importance Sampling"
-  repo: "ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
+  repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
   language: "MATLAB"
   description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with two numerical examples."
   paper: "Computers & Structures, 2025"
 
 - name: "Generalized Subset Simulation with Multiple Importance Sampling (Python)"
-  repo: "ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
+  repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
   language: "Python"
   description: "Python implementation of generalized subset simulation with multiple importance sampling, with the same two numerical examples."
   paper: "Computers & Structures, 2025"
