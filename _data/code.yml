@@ -26,8 +26,14 @@
 
 - name: "GSS-MIS for Reliability Estimation"
   repo: "ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-for-Reliability-Estimation"
-  language: "MATLAB / Python"
-  description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with MATLAB and Python implementations and two numerical examples."
+  language: "MATLAB"
+  description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with two numerical examples."
+  paper: "Computers & Structures, 2025"
+
+- name: "GSS-MIS for Reliability Estimation (Python)"
+  repo: "ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
+  language: "Python"
+  description: "Python implementation of generalized subset simulation with multiple importance sampling, with the same two numerical examples."
   paper: "Computers & Structures, 2025"
 
 - name: "Subset Simulation for Bayesian Updating"
