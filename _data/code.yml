@@ -24,14 +24,14 @@
   description: "Python port of the MATLAB SeMIS code for evidence estimation and posterior sampling (NumPy/SciPy), with the same benchmarks, checked against the MATLAB results."
   paper: "Mechanical Systems and Signal Processing, 2026"
 
-- name: "GSS-MIS for Reliability Estimation"
-  repo: "ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-for-Reliability-Estimation"
+- name: "Generalized Subset Simulation with Multiple Importance Sampling"
+  repo: "ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
   language: "MATLAB"
   description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with two numerical examples."
   paper: "Computers & Structures, 2025"
 
-- name: "GSS-MIS for Reliability Estimation (Python)"
-  repo: "ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
+- name: "Generalized Subset Simulation with Multiple Importance Sampling (Python)"
+  repo: "ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
   language: "Python"
   description: "Python implementation of generalized subset simulation with multiple importance sampling, with the same two numerical examples."
   paper: "Computers & Structures, 2025"

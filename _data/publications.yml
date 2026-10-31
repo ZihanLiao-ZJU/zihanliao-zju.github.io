@@ -65,8 +65,8 @@
   year: 2025
   category: manuscripts
   paper: "https://doi.org/10.1016/j.compstruc.2025.107741"
-  code: "https://github.com/ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-for-Reliability-Estimation"
-  code_python: "https://github.com/ZihanLiao-ZJU/Enhanced-generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
+  code: "https://github.com/ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
+  code_python: "https://github.com/ZihanLiao-ZJU/generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
 
 - title: "Bayesian mixture of factor analyzers for structural damage detection under varying environmental conditions"
   authors: "Binbin Li, Yulong Zhang, Zihan Liao, Zhilin Xue*"
