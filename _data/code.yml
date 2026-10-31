@@ -53,3 +53,9 @@
   language: "MATLAB"
   description: "A one-dimensional convolutional neural network for quantitative regression of surface-enhanced Raman spectra, reporting calibration and test-set metrics including RMSEP and LOD."
   paper: "Analytical Chemistry, 2026"
+
+- name: "1D-CNN-Assisted SERS Quantification (Python)"
+  repo: "ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification-Python"
+  language: "Python"
+  description: "PyTorch implementation of the MATLAB four-block 1D convolutional regression network for SERS quantification, with training, prediction, regression metrics and a self-contained synthetic-data demonstration."
+  paper: "Analytical Chemistry, 2026"

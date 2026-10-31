@@ -12,6 +12,7 @@
   category: manuscripts
   paper: "https://doi.org/10.1021/acs.analchem.6c01156"
   code: "https://github.com/ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
+  code_python: "https://github.com/ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification-Python"
 
 - title: "Sequential multiple importance sampling for robust and efficient (possibly high-dimensional) reliability estimation"
   authors: "Weili Xia, Zihan Liao*, Binbin Li"
