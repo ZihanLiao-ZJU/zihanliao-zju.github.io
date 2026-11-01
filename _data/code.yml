@@ -27,13 +27,13 @@
 - name: "Relaxed Subset Simulation"
   repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation"
   language: "MATLAB"
-  description: "Relaxed subset simulation with hybrid intermediate domains and multiple importance sampling for reliability estimation, with two numerical examples."
+  description: "Relaxed subset simulation with hybrid intermediate domains and multiple importance sampling for reliability estimation, with numerical examples A–C."
   paper: "Reliability Engineering & System Safety, 2025"
 
 - name: "Relaxed Subset Simulation (Python)"
   repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation-Python"
   language: "Python"
-  description: "Python implementation of the relaxed subset simulation MIS variant, with the same two numerical examples and corresponding source files."
+  description: "Python implementation of the relaxed subset simulation MIS variant, with the same numerical examples A–C and corresponding source files."
   paper: "Reliability Engineering & System Safety, 2025"
 
 - name: "Generalized Subset Simulation with Multiple Importance Sampling"
