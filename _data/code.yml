@@ -36,13 +36,13 @@
   description: "Python implementation of the relaxed subset simulation MIS variant, with the same numerical examples A–C and corresponding source files."
   paper: "Reliability Engineering & System Safety, 2025"
 
-- name: "Generalized Subset Simulation with Multiple Importance Sampling"
+- name: "Generalized Subset Simulation with Multiple Importance Sampling (GSuS-MIS)"
   repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
   language: "MATLAB"
   description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with two numerical examples."
   paper: "Computers & Structures, 2025"
 
-- name: "Generalized Subset Simulation with Multiple Importance Sampling (Python)"
+- name: "Generalized Subset Simulation with Multiple Importance Sampling (GSuS-MIS, Python)"
   repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
   language: "Python"
   description: "Python implementation of generalized subset simulation with multiple importance sampling, with the same two numerical examples."
