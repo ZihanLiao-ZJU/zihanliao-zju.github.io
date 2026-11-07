@@ -33,7 +33,7 @@ The research and data collection underlying my publications were carried out und
 
 ## Open-source code
 
-{% include code-list.html %}
+{% include code-list.html heading_level=3 %}
 
 
 ## Datasets
@@ -41,3 +41,4 @@ The research and data collection underlying my publications were carried out und
 Open experimental datasets from structural vibration tests I participated in, published with my collaborators on Harvard Dataverse.
 
 {% include dataset-list.html %}
+

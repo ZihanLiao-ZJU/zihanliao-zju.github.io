@@ -5,6 +5,7 @@ permalink: /code/
 author_profile: true
 ---
 
-<p class="page__lead">Open-source MATLAB toolboxes that accompany my papers, with Python ports of the reliability and Bayesian updating codes. Each repository includes a runnable driver, benchmark problems and a README that maps the code to the equations in the paper.</p>
+<p class="page__lead">Research software and supporting projects, organized by topic. MATLAB and Python implementations of the same method are listed together.</p>
 
 {% include code-list.html %}
+

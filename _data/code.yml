@@ -1,73 +1,83 @@
-# Open-source research code, shown on the home page and the Code page.
+# Public repositories grouped by primary research area; each repository appears once.
 
-- name: "SeMIS for Reliability Estimation"
-  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation"
-  language: "MATLAB"
-  description: "Sequential multiple importance sampling for estimating small failure probabilities, including in high-dimensional problems, with optional single-run CoV bounds and twelve benchmark examples."
-  paper: "Mechanical Systems and Signal Processing, 2026"
-
-- name: "SeMIS for Reliability Estimation (Python)"
-  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation-Python"
-  language: "Python"
-  description: "Python port of the MATLAB SeMIS reliability code (NumPy/SciPy), with the same classes and twelve benchmark examples, checked against the MATLAB results."
-  paper: "Mechanical Systems and Signal Processing, 2026"
-
-- name: "SeMIS for Multimodal Bayesian Inference"
-  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference"
-  language: "MATLAB"
-  description: "Softly truncated, prior-based proposal sequences combined through multiple importance sampling for Bayesian evidence estimation and posterior sampling with multimodal, high-dimensional posteriors."
-  paper: "Mechanical Systems and Signal Processing, 2026"
-
-- name: "SeMIS for Multimodal Bayesian Inference (Python)"
-  repo: "ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python"
-  language: "Python"
-  description: "Python port of the MATLAB SeMIS code for evidence estimation and posterior sampling (NumPy/SciPy), with the same benchmarks, checked against the MATLAB results."
-  paper: "Mechanical Systems and Signal Processing, 2026"
-
-- name: "Relaxed Subset Simulation"
-  repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation"
-  language: "MATLAB"
-  description: "Relaxed subset simulation with hybrid intermediate domains and the original sequential probability-product estimator for reliability estimation, with numerical examples A–C."
-  paper: "Reliability Engineering & System Safety, 2025"
-
-- name: "Relaxed Subset Simulation (Python)"
-  repo: "ZihanLiao-ZJU/Relaxed-Subset-Simulation-Python"
-  language: "Python"
-  description: "Python implementation of relaxed subset simulation with the original sequential probability-product estimator, with the same numerical examples A–C and corresponding source files."
-  paper: "Reliability Engineering & System Safety, 2025"
-
-- name: "Generalized Subset Simulation with Multiple Importance Sampling (GSuS-MIS)"
-  repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling"
-  language: "MATLAB"
-  description: "Generalized subset simulation with multiple importance sampling for reliability estimation with multiple failure events, with two numerical examples."
-  paper: "Computers & Structures, 2025"
-
-- name: "Generalized Subset Simulation with Multiple Importance Sampling (GSuS-MIS, Python)"
-  repo: "ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python"
-  language: "Python"
-  description: "Python implementation of generalized subset simulation with multiple importance sampling, with the same two numerical examples."
-  paper: "Computers & Structures, 2025"
-
-- name: "Subset Simulation for Bayesian Updating"
-  repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating"
-  language: "MATLAB"
-  description: "Treats the likelihood as a limit-state function and uses subset simulation to estimate the Bayesian evidence, with a CoV correction for correlated Markov chain samples, and to draw posterior samples."
-  paper: "Mechanical Systems and Signal Processing, 2025"
-
-- name: "Subset Simulation for Bayesian Updating (Python)"
-  repo: "ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating-Python"
-  language: "Python"
-  description: "Python port of the MATLAB subset simulation code for Bayesian evidence estimation and posterior sampling (NumPy/SciPy), checked against the MATLAB results."
-  paper: "Mechanical Systems and Signal Processing, 2025"
-
-- name: "1D-CNN-Assisted SERS Quantification"
-  repo: "ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification"
-  language: "MATLAB"
-  description: "A one-dimensional convolutional neural network for quantitative regression of surface-enhanced Raman spectra, reporting calibration and test-set metrics including RMSEP and LOD."
-  paper: "Analytical Chemistry, 2026"
-
-- name: "1D-CNN-Assisted SERS Quantification (Python)"
-  repo: "ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification-Python"
-  language: "Python"
-  description: "PyTorch implementation of the MATLAB four-block 1D convolutional regression network for SERS quantification, with training, prediction, regression metrics and a self-contained synthetic-data demonstration."
-  paper: "Analytical Chemistry, 2026"
+- id: reliability-estimation
+  title: Reliability Estimation
+  tools:
+  - name: SeMIS for Reliability Estimation
+    language: MATLAB · Python
+    description: Sequential multiple importance sampling for estimating small failure probabilities, including in high-dimensional
+      problems, with optional single-run CoV bounds and twelve benchmark examples.
+    paper: Mechanical Systems and Signal Processing, 2026
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation
+    - label: Python
+      repo: ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-Reliability-Estimation-Python
+  - name: Generalized Subset Simulation with MIS (GSuS-MIS)
+    language: MATLAB · Python
+    description: Generalized subset simulation with multiple importance sampling for reliability estimation with multiple
+      failure events, with two numerical examples.
+    paper: Computers & Structures, 2025
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling
+    - label: Python
+      repo: ZihanLiao-ZJU/Generalized-Subset-Simulation-with-Multiple-Importance-Sampling-Python
+  - name: Relaxed Subset Simulation (ReSuS)
+    language: MATLAB · Python
+    description: Relaxed subset simulation with hybrid intermediate domains and the original sequential probability-product
+      estimator for reliability estimation, with numerical examples A–C.
+    paper: Reliability Engineering & System Safety, 2025
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Relaxed-Subset-Simulation
+    - label: Python
+      repo: ZihanLiao-ZJU/Relaxed-Subset-Simulation-Python
+- id: bayesian-updating
+  title: Bayesian Updating
+  tools:
+  - name: Subset Simulation for Bayesian Updating
+    language: MATLAB · Python
+    description: Treats the likelihood as a limit-state function and uses subset simulation to estimate the Bayesian evidence,
+      with a CoV correction for correlated Markov chain samples, and to draw posterior samples.
+    paper: Mechanical Systems and Signal Processing, 2025
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating
+    - label: Python
+      repo: ZihanLiao-ZJU/Subset-Simulation-for-Bayesian-Updating-Python
+  - name: SeMIS for Multimodal Bayesian Inference
+    language: MATLAB · Python
+    description: Softly truncated, prior-based proposal sequences combined through multiple importance sampling for Bayesian
+      evidence estimation and posterior sampling with multimodal, high-dimensional posteriors.
+    paper: Mechanical Systems and Signal Processing, 2026
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference
+    - label: Python
+      repo: ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python
+- id: optimization
+  title: Optimization
+  tools: []
+- id: machine-learning
+  title: Machine Learning
+  tools:
+  - name: 1D-CNN-Assisted SERS Quantification
+    language: MATLAB · Python
+    description: A one-dimensional convolutional neural network for quantitative regression of surface-enhanced Raman spectra,
+      reporting calibration and test-set metrics including RMSEP and LOD.
+    paper: Analytical Chemistry, 2026
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification
+    - label: Python
+      repo: ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification-Python
+- id: others
+  title: Others
+  tools:
+  - name: Personal Academic Website
+    language: Jekyll
+    description: Source for this academic website, including publications, research software, and open datasets.
+    repositories:
+    - label: Source
+      repo: ZihanLiao-ZJU/zihanliao-zju.github.io

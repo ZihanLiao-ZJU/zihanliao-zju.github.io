@@ -1,11 +1,32 @@
-<div class="code-grid">
-  {% for tool in site.data.code %}
-  <a class="code-card" href="https://github.com/{{ tool.repo }}">
-    <span class="code-card__lang">{{ tool.language }}</span>
-    <h3 class="code-card__name">{{ tool.name }}</h3>
-    <p class="code-card__desc">{{ tool.description }}</p>
-    {% if tool.paper %}<p class="code-card__paper">{{ tool.paper }}</p>{% endif %}
-    <span class="code-card__repo"><i class="fab fa-github" aria-hidden="true"></i> {{ tool.repo | split: "/" | last }}</span>
-  </a>
+{% assign category_heading = include.heading_level | default: 2 %}
+{% assign project_heading = category_heading | plus: 1 %}
+<nav aria-label="Code categories">
+  {% for category in site.data.code %}
+  <a class="chip" href="#code-{{ category.id }}">{{ category.title | escape }}</a>
   {% endfor %}
-</div>
+</nav>
+
+{% for category in site.data.code %}
+<section class="code-category" aria-labelledby="code-{{ category.id }}">
+  <h{{ category_heading }} id="code-{{ category.id }}">{{ category.title | escape }}</h{{ category_heading }}>
+  {% if category.tools.size > 0 %}
+  <div class="code-grid">
+    {% for tool in category.tools %}
+    <article class="code-card">
+      <span class="code-card__lang">{{ tool.language | escape }}</span>
+      <h{{ project_heading }} class="code-card__name">{{ tool.name | escape }}</h{{ project_heading }}>
+      <p class="code-card__desc">{{ tool.description | escape }}</p>
+      {% if tool.paper %}<p class="code-card__paper">{{ tool.paper | escape }}</p>{% endif %}
+      <div class="code-card__links">
+        {% for repository in tool.repositories %}
+        <a class="chip" href="https://github.com/{{ repository.repo | escape }}" aria-label="{{ tool.name | escape }} — {{ repository.label | escape }} repository"><i class="fab fa-github" aria-hidden="true"></i> {{ repository.label | escape }}</a>
+        {% endfor %}
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+  {% else %}
+  <p class="page__lead">No public repositories yet.</p>
+  {% endif %}
+</section>
+{% endfor %}
