@@ -134,6 +134,7 @@
   year: 2022
   category: conferences
   paper: "https://doi.org/10.1109/ICHCE57331.2022.10042699"
+  code: "https://github.com/ZihanLiao-ZJU/Subset-Simulation-for-Discrete-Optimization"
   corresponding_author: true
 
 - title: "Adaptive stratified sampling using subset simulation for Bayesian analysis"
