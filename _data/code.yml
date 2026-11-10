@@ -58,9 +58,16 @@
       repo: ZihanLiao-ZJU/Sequential-multiple-importance-sampling-for-multimodal-Bayesian-inference-Python
 - id: optimization
   title: Optimization
-  tools: []
-- id: machine-learning
-  title: Machine Learning
+  tools:
+  - name: Subset Simulation for Discrete Optimization
+    language: MATLAB
+    description: Single-objective and multiobjective discrete subset simulation for bounded integers, subsets and permutations,
+      using the shared SeMCS engine and MCMC samplers.
+    repositories:
+    - label: MATLAB
+      repo: ZihanLiao-ZJU/Subset-Simulation-for-Discrete-Optimization
+- id: spectral-analysis
+  title: Spectral Analysis
   tools:
   - name: 1D-CNN-Assisted SERS Quantification
     language: MATLAB · Python
