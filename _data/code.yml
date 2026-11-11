@@ -81,10 +81,4 @@
       repo: ZihanLiao-ZJU/1D-CNN-Assisted-SERS-Quantification-Python
 - id: others
   title: Others
-  tools:
-  - name: Personal Academic Website
-    language: Jekyll
-    description: Source for this academic website, including publications, research software, and open datasets.
-    repositories:
-    - label: Source
-      repo: ZihanLiao-ZJU/zihanliao-zju.github.io
+  tools: []
