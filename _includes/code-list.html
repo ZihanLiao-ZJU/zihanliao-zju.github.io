@@ -25,7 +25,7 @@
     </article>
     {% endfor %}
   </div>
-  {% else %}
+  {% elsif category.id != 'others' %}
   <p class="page__lead">No public repositories yet.</p>
   {% endif %}
 </section>
